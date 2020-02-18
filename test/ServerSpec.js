@@ -145,7 +145,7 @@ describe('', function () {
       });
     });
 
-    it("does not store the user's original text password", function (done) {
+    it('does not store the user\'s original text password', function (done) {
       var options = {
         'method': 'POST',
         'uri': 'http://127.0.0.1:4568/signup',
