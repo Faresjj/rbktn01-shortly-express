@@ -1,5 +1,5 @@
 const parseCookies = (req, res, next) => {
-
+// console.log(req.get('Cookie'));
   let cookieString = req.get('Cookie') || '';
 
   parsedCookies = cookieString.split('; ').reduce((cookies, cookie) => {
